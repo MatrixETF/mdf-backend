@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["es2015", "dom"],
+    "target": "es6",
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": false,
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "noUnusedLocals": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "noUnusedParameters": false,
+    "resolveJsonModule": true
+  },
+  "include": ["./src/**/*.ts"]
+}
